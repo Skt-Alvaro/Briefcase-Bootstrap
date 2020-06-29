@@ -58,3 +58,7 @@ body {
     background-color: #fff;
     border-top: 3px solid var(--first-blue);
 }
+
+.briefcase-color {
+    color: var(--first-blue);
+}
