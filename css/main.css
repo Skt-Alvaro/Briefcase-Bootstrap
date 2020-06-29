@@ -2,7 +2,7 @@ body {
     width: 80%;
     margin: 30px auto 0 auto;
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #f1f1f1;
+    background-color: #c6c6c6;
 }
 
 :root{
@@ -16,28 +16,45 @@ body {
 
 .header-second-btn-color {
     background: var(--second-blue);
-    outline: var(--second-blue);
+    outline: 0;
     border-color: var(--second-blue);
+}
+
+.header-second-btn-color:hover, .header-second-btn-color:active, .header-second-btn-color:focus {
+    background: var(--second-blue-hover) !important;
+    outline: 0;
+    border-color: var(--second-blue-hover);
 }
 
 .header-third-btn-color {
     background: var(--third-blue);
-    outline: var(--third-blue);
+    outline: 0;
     border-color: var(--third-blue);
 }
 
-.header-second-btn-color:hover {
-    background: var(--second-blue-hover);
-    outline: var(--second-blue-hover);
-    border-color: var(--second-blue-hover);
-}
-
-.header-third-btn-color:hover {
-    background: var(--third-blue-hover);
-    outline: var(--third-blue-hover);
+.header-third-btn-color:hover, .header-third-btn-color:active, .header-third-btn-color:focus {
+    background: var(--third-blue-hover) !important;
+    outline: 0;
     border-color: var(--third-blue-hover);
 }
 
 .header-font {
     font-size: 13px;
+}
+
+.header-second-btn-color:active {
+    outline: 0;
+    background: transparent;
+}
+
+.nav-item a:focus,
+.nav-item a:active,
+.nav-item a:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.content {
+    background-color: #fff;
+    border-top: 3px solid var(--first-blue);
 }
