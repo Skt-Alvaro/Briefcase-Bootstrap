@@ -1,0 +1,43 @@
+body {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: #f1f1f1;
+}
+
+:root{
+    --first-blue: #007bff;
+    --second-blue: #0054AD;
+    --third-blue: #003670;
+
+    --second-blue-hover: #004289;
+    --third-blue-hover: #001F41;
+}
+
+.header-second-btn-color {
+    background: var(--second-blue);
+    outline: var(--second-blue);
+    border-color: var(--second-blue);
+}
+
+.header-third-btn-color {
+    background: var(--third-blue);
+    outline: var(--third-blue);
+    border-color: var(--third-blue);
+}
+
+.header-second-btn-color:hover {
+    background: var(--second-blue-hover);
+    outline: var(--second-blue-hover);
+    border-color: var(--second-blue-hover);
+}
+
+.header-third-btn-color:hover {
+    background: var(--third-blue-hover);
+    outline: var(--third-blue-hover);
+    border-color: var(--third-blue-hover);
+}
+
+.header-font {
+    font-size: 13px;
+}
