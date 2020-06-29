@@ -5,6 +5,10 @@ body {
     background-color: #c6c6c6;
 }
 
+.font {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 :root{
     --first-blue: #007bff;
     --second-blue: #0054AD;
@@ -12,6 +16,8 @@ body {
 
     --second-blue-hover: #004289;
     --third-blue-hover: #001F41;
+
+    --instagram-color: #943AE7;
 }
 
 .header-second-btn-color {
@@ -59,6 +65,39 @@ body {
     border-top: 3px solid var(--first-blue);
 }
 
-.briefcase-color {
+.text-color {
     color: var(--first-blue);
+}
+
+.text-color-two {
+    color: var(--second-blue)
+}
+
+.about-face {
+    width: 50%;
+}
+
+.hr-style {
+    margin-top: 5rem !important;
+}
+
+.background-twitter {
+    background-color: var(--first-blue);
+    width: 7%;
+}
+
+.background-instagram {
+    background-color: var(--instagram-color);
+    width: 7%;
+    margin-left: 20px;
+}
+
+.background-facebook {
+    background-color: var(--second-blue);
+    width: 7%;
+    margin-left: 20px;
+}
+
+.social-media-h {
+    height: 150px !important;
 }

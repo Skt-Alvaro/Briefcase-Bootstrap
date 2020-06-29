@@ -6,6 +6,8 @@
     <title>Portafolio Bootstrap</title>
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
     <!-- FONT AWESOME -->
@@ -27,10 +29,10 @@
                 <a class="nav-link btn btn-primary text-white rounded-0 p-3 header-font" href="#portafolio">Portafolio<i class="fas fa-briefcase d-block mt-1"></i></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link btn btn-primary text-white rounded-0 p-3 header-font header-second-btn-color" href="#">Acerca De<i class="fas fa-user d-block mt-1"></i></a>
+                <a class="nav-link btn btn-primary text-white rounded-0 p-3 header-font header-second-btn-color" href="#about">Acerca De<i class="fas fa-user d-block mt-1"></i></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link btn btn-primary text-white rounded-0 p-3 header-font header-third-btn-color" href="#">Contacto<i class="fas fa-envelope d-block mt-1"></i></a>
+                <a class="nav-link btn btn-primary text-white rounded-0 p-3 header-font header-third-btn-color" href="#contact">Contacto<i class="fas fa-envelope d-block mt-1"></i></a>
                 </li>
             </ul>
             </div>
@@ -70,7 +72,7 @@
         <!-- BRIEFCASE -->
         <section id="portafolio">
             <div class="content">
-                <h1 class="text-center my-5 mb-5 briefcase-color">Portafolio</h1>
+                <h1 class="text-center my-5 mb-5 text-color-two">Portafolio</h1>
                     <div class="container">
                         <div class="row mb-5">
                             <div class="col-4">
@@ -103,9 +105,92 @@
             </div>
         </section>
 
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container mt-5">
+                <div class="row align-items-center">
+                    <div class="col-4 text-center">
+                        <img class="about-face rounded-circle" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimg.uefa.com%2Fimgml%2FTP%2Fplayers%2F9%2F2015%2F324x324%2F95803.jpg&f=1&nofb=1">
+                        <h4 class="mt-4">Alvaro Pilarte</h4>
+                    </div>
+                    <div class="col-8">
+                        <h1 class="mb-4 text-color">Acerca De</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem fugiat asperiores ipsa dignissimos doloremque aperiam corporis, impedit laudantium porro eum!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, aut reiciendis cupiditate corporis optio voluptatibus voluptatum aliquid!</p>
+                        <div class="bar mb-4">
+                            <h4 class="text-color font-weight-bold">HTML</h4>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="text-left ml-4">85%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bar mb-4">
+                            <h4 class="text-color font-weight-bold">CSS</h4>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="text-left ml-4">90%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bar">
+                            <h4 class="text-color font-weight-bold">JAVASCRIPT</h4>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="text-left ml-4">30%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="bg-secundary hr-style">
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="container text-center text-color my-5">
+                <h1>Contacto</h1>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-4">
+                        <input type="text" placeholder="Nombre" class="form-control p-4">
+                    </div>
+                    <div class="col-4">
+                        <input type="email" placeholder="Correo" class="form-control p-4">
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-8">
+                        <textarea placeholder="Mensaje" cols="30" rows="5" class="form-control"></textarea>
+                    </div>
+                    <div class="container text-center my-4">
+                        <input type="submit" class="btn btn-primary" name="Enviar">
+                    </div>
+                </div>
+                <hr class="bg-secundary">
+            </div>
+        </section>
+
+        <!-- SOCIAL MEDIA -->
+
+        <footer>
+            <div class="container text-center mt-5 h-75 social-media-h">
+                <div class="img">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Ffloatingpath.wpengine.netdna-cdn.com%2Fwp-content%2Fuploads%2F2017%2F03%2FWhite-Transparent-Twitter-Bird.png&f=1&nofb=1" class="rounded-circle background-twitter">
+                    
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages.clipartpanda.com%2Fsearch-png-white-instagram-logo-white-png.png&f=1&nofb=1" class="rounded-circle background-instagram">
+                    
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.techgyd.com%2F50-Best-Facebook-Logo-Icons-GIF-Transparent-PNG-Images-54.png&f=1&nofb=1" class="background-facebook rounded-circle">
+                </div>
+            </div>
+        </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./js/reveal.js"></script>
 </body>
 </html>
