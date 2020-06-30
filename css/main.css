@@ -2,7 +2,7 @@ body {
     width: 80%;
     margin: 30px auto 0 auto;
     font-family: 'Merriweather Sans', sans-serif;
-    background-color: #c6c6c6;
+    background-color: #c0c0c0;
 }
 
 .font {
@@ -98,6 +98,35 @@ body {
     margin-left: 20px;
 }
 
-.social-media-h {
-    height: 150px !important;
+@media screen and (max-width:768px) {
+    .width-md-25 {
+        width: 25% !important;
+    }
+    .width-md-50 {
+        width: 50% !important;
+    }
+    .width-md-75 {
+        width: 75% !important;
+    }
+    .width-md-c100 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .width-25-sm {
+        width: 25% !important;
+    }
+    .width-sm-50 {
+        width: 50% !important;
+    }
+    .width-sm-75 {
+        width: 75% !important;
+    }
+    .width-sm-100 {
+        width: 100% !important;
+    }
+    .height-carousel {
+        height: 200px;
+    }
 }
